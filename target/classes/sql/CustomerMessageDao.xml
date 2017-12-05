@@ -24,7 +24,7 @@
     </insert>
 
     <select id="findAll" resultType="cn.xu.model.CustomerMessage">
-        select * from message where id =2;
+        select * from message;
     </select>
 
 

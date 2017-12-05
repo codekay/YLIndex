@@ -3,6 +3,8 @@ package cn.xu.dao;
 import cn.xu.model.CustomerMessage;
 import org.springframework.stereotype.Repository;
 
+import java.util.List;
+
 @Repository
 public interface CustomerMessageDao {
 
@@ -10,5 +12,5 @@ public interface CustomerMessageDao {
 
     void addMessage(String message);
 
-    CustomerMessage findAll();
+    List<CustomerMessage> findAll();
 }

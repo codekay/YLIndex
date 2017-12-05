@@ -1,5 +1,30 @@
-#创建数据库表
-create table message(
-id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
-message text not null
-)AUTO_INCREMENT = 999;
+    #创建数据库表
+    create table message(
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    message text not null
+    )AUTO_INCREMENT = 1;
+
+
+    #创建数据库表
+    #服务产品
+    create table serviceType(
+    id int NOT NULL PRIMARY KEY AUTO_INCREMENT,
+    name varchar(64) not null,
+    describe text not null,
+    img varchar(255) not null
+    )AUTO_INCREMENT = 1;
+
+    insert into ServiceProduct value(null,"test","This is a test","http://img0.imgtn.bdimg.com/it/u=92848021,3933526889&fm=11&gp=0.jpg");
+
+    #创建产品展示表
+    CREATE TABLE `successcase` (
+      `id` int(11) NOT NULL auto_increment,
+      `name` varchar(255) default NULL,
+      `describe` varchar(255) default NULL,
+      `img` varchar(255) NOT NULL,
+      `typeId` int(11) default NULL,
+      PRIMARY KEY  (`id`)
+    ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
+
+    insert into successcase value(null,'Test','Hello Test','http://img1.imgtn.bdimg.com/it/u=1872509547,3920553722&fm=27&gp=0.jpg',null);
+

@@ -21,11 +21,12 @@ public class CustomerMessageService {
             System.out.println("customerMessageDao = null");
     }
 
-    public CustomerMessage findAll() {
+    public List<CustomerMessage> findAll() {
         return customerMessageDao.findAll();
     }
 
     public CustomerMessage queryById(int id){
         return customerMessageDao.queryById(id);
     }
+
 }
