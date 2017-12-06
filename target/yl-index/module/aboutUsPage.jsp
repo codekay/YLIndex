@@ -17,9 +17,10 @@
 					</div>
 				</div>
 				<div class="col-md-7 wel-grid">
-					<h4>sit amet consectetur elit </h4>
-					<p>Lorem ipsum dolor sit ame sectetur adipsing elit. Praesent eu est quilrs turpis posuere sodales. Mauris tempus placerat felvel iaculis. Suspendisse blandit id dolor eu bibendum. Integer gravida diam ut quam eleifend, sed tristiqu diam laoreet. Donec ac gravida urna. Sed ut nibh posuere euismod est</p>
-					<p>Duis aute irure dolor in reprehenderit in voluptate Praesent eu est quilrs turpis posuere sodales. elit esse cillum dolore eu fugiat nulla pariatur. Lorem ipsum dolor. reprehenderit</p>
+					<h4>企业简介 </h4>
+					<p>浙江丽水易龙软件科技有限公司，成立于2017年5月。致力于软件开发，电子科技、安防技术领域内的技术开发，技术服务、技术咨询等。</p>
+					<p>易龙科技提供从硬件到上层应用的全面技术支持，以流水线的研发流程为基础，为热爱软件研发的人才提供宽广的就业机会。</p>
+					<p>易龙科技积累技术，通过为多家企业提供低成本创新尝试、创新咨询，为三线城市企业创新探路，降低企业创新成本。</p>
 				</div>
 				<div class="clearfix"></div>
 			</div>

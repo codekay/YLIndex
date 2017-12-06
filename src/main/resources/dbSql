@@ -26,5 +26,5 @@
       PRIMARY KEY  (`id`)
     ) ENGINE=InnoDB AUTO_INCREMENT=1 DEFAULT CHARSET=utf8;
 
-    insert into successcase value(null,'Test','Hello Test','http://img1.imgtn.bdimg.com/it/u=1872509547,3920553722&fm=27&gp=0.jpg',null);
+    insert into successcase value(null,'Test','Hello Test','http://img1.imgtn.bdimg.com/it/u=1872509547,3920553722&fm=27&gp=0.jpg',2);
 

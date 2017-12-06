@@ -26,7 +26,7 @@
 						<li><a href="#blogs" class="hvr-bounce-to-bottom scroll">日志更新</a></li>
 						<li><a href="#portfolio" class="hvr-bounce-to-bottom scroll">产品展示</a></li>
 						<li><a href="#team" class="hvr-bounce-to-bottom scroll">团队</a></li>
-						<li><a href="#mail" class="hvr-bounce-to-bottom scroll">联系我们</a></li>
+						<%--<li><a href="#mail" class="hvr-bounce-to-bottom scroll">联系我们</a></li>--%>
 					</ul>
 				</nav>
 			</div>

@@ -3,7 +3,7 @@
 <%--<script type="text/javascript" src="${pageContext.request.contextPath}/js/utils.js"></script>--%>
 <div class="popular-w3" id="services">
 	<div class="container">
-		<h3 class="ser-w3">Our Best services</h3>
+		<h3 class="ser-w3">产品服务</h3>
 		<div class="popular-grids " id = "customer-service">
 			<%--<div class="col-md-4 popular-grid">
 				<div class="popular-text">

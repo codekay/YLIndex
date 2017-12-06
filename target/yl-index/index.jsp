@@ -45,70 +45,9 @@
     <jsp:include page="common/navigation.jsp"/>
     <!-- //header -->
     <!-- 轮播图 -->
-    <div class="slider">
-        <div class="callbacks_container">
-            <ul class="rslides" id="slider">
-                <li>
-                    <div class="slider-img">
-                        <img src="images/bg2.jpg" class="img-responsive" alt="education">
-                    </div>
-                    <div class="slider-info">
-                        <h3>业务指南</h3>
-                        <h5><a href="#" class="view rew3" data-toggle="modal" data-target="#myModal5">更多</a></h5>
-                    </div>
-                </li>
-                <li>
-                    <div class="slider-img">
-                        <img src="images/bg3.jpg" class="img-responsive" alt="education">
-                    </div>
-                    <div class="slider-info">
-                        <h3>业务指南</h3>
-                        <h5><a href="#" class="view rew3" data-toggle="modal" data-target="#myModal5">Read More</a></h5>
-                    </div>
-                </li>
-                <li>
-                    <div class="slider-img">
-                        <img src="images/bg1.jpg" class="img-responsive" alt="education">
-                    </div>
-                    <div class="slider-info">
-                        <h3>Global Business Guide</h3>
-                        <h5><a href="#" class="view rew3" data-toggle="modal" data-target="#myModal5">更多</a></h5>
-                    </div>
-                </li>
-                <li>
-                    <div class="slider-img">
-                        <img src="images/bg4.jpg" class="img-responsive" alt="education">
-                    </div>
-                    <div class="slider-info">
-                        <h3>Global Business Guide</h3>
-                        <h5><a href="#" class="view rew3" data-toggle="modal" data-target="#myModal5">Read More</a></h5>
-                    </div>
-                </li>
-            </ul>
-        </div>
-        <div class="clearfix"></div>
-    </div>
-    <!-- 模态框 -->
-    <div class="modal fade" id="myModal5" tabindex="-1" role="dialog">
-        <div class="modal-dialog">
-            <!-- 模态框内容-->
-            <div class="modal-content">
-                <div class="modal-header">
-                    <button type="button" class="close" data-dismiss="modal">&times;</button>
-                    <h4>博客帖子</h4>
-                    <h5>Lorem ipsum dolor sit amet</h5>
-                    <img src="images/b3.jpg" alt="blog-image"/>
-                    <span>Lorem ipsum dolor sit amet, Sed ut perspiciatis unde omnis iste natus error sit voluptatem , eaque ipsa quae ab illo inventore veritatis et quasi architecto beatae vitae dicta sunt explicabo.accusantium doloremque laudantium, totam rem aperiamconsectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</span>
-                </div>
-            </div>
-
-        </div>
-    </div>
-    <!-- //Modal5 -->
-    <!-- //Slider -->
-    <!-- //header -->
+    <jsp:include page="module/sliderPage.jsp"/>
     <!-- banner-bottom -->
-    <div class="agileits_services_grids_bottom">
+    <%--<div class="agileits_services_grids_bottom">
         <div class="container">
             <div class="col-md-3 agileits_service_grid_btm_left">
                 <div class="agileits_service_grid_btm_left1">
@@ -152,7 +91,7 @@
             </div>
             <div class="clearfix"></div>
         </div>
-    </div>
+    </div>--%>
 </div>
 <!-- //banner-bottom -->
 
@@ -172,7 +111,7 @@
 <jsp:include page="module/successCasePage.jsp"/>
 
 <!-- 联系我们 -->
-<jsp:include page="module/contactUsPage.jsp"/>
+<%--<jsp:include page="module/contactUsPage.jsp"/>--%>
 
 <!-- 页脚 -->
 <jsp:include page="common/foot.jsp"/>
@@ -183,21 +122,9 @@
 <!-- Baneer-js -->
 <script src="./js/responsiveslides.min.js"></script>
 <script>
-    $(function () {
-        $("#slider").responsiveSlides({
-            auto: true,
-            pager: false,
-            nav: true,
-            speed: 1000,
-            namespace: "callbacks",
-            before: function () {
-                $('.events').append("<li>before event fired.</li>");
-            },
-            after: function () {
-                $('.events').append("<li>after event fired.</li>");
-            }
-        });
-    });
+
+
+
 </script>
 <!-- //Baneer-js -->
 
